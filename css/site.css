@@ -1,0 +1,113 @@
+body {
+    background-color: #eeb46b;
+}
+ 
+ h3 {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color:Orange;
+}
+
+ #con1 {
+    font-style:italic;
+    text-align: right;
+    margin-left: 220px;
+}
+#Copyright {
+    font-style:italic;
+    margin-left: 30px;
+}
+#News {
+    background-color: #FFA07A;
+    
+}
+#News h2{
+    color:black;
+}
+#Fire {
+    margin-bottom: 25px;
+}
+#First {
+    
+    margin-left:350px;
+}
+#pic1 h1{
+    color:Black;
+    font-size: 50px;
+}
+#pic2 h1{
+    color:Black;
+    font-size: 50px;
+}
+#pic3 h1{
+    color:Black;
+    font-size: 50px;
+}
+#Socials {
+    margin-bottom: 15px;
+    background-color: #FFA07A;
+    padding: 25px;
+}
+#soctag {
+    
+    text-align: center;
+}
+#contact {
+    background-color: #FFA07A	;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+#contact h1 {
+    color: black;
+    text-align: left;
+}
+#Twitter {
+    background-color: white;
+}
+#Secabout{
+    background-color: #FFA07A;
+    padding: 15px;
+}
+#Firabout{
+     background-color: #FFA07A;
+    padding: 15px;
+}
+#Reg {
+    color: black;
+    font-size: 20px;
+}
+#Men1{
+    background-color: #FFA07A;
+    padding: 15px;
+}
+#Men2{
+    background-color: #FFA07A;
+    padding: 15px;
+}
+#Copy {
+    margin: 0px
+}
+
+#Navbar {
+    background-color: sandybrown;
+    
+}
+#Logo {
+    background:white;
+}
+#container {
+    background-color: saddlebrown;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: lightcyan;
+}
+#email_form {
+    margin-right: 20px;
+}
+.navbar-default .navbar-brand {
+    color: lightcyan;
+}

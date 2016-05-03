@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <title>Donut Delights</title>
+</head>
+
+<body>
+
+    <div id="container" class="container">
+        <div id="Logo"class="row">
+        <div class='col-md-12'>
+            <img src="http://i.imgur.com/Un0CK6d.png" class="img-responsive center-block" alt="" style="width:750px;height:350px;">
+        </div>
+        </div>
+          <div class="row">
+            <div class="col-md-12">
+                <h3>The finest in breakfast treats and coffees since 1971</h3>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div id="Navbar" class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" >
+          Donut Delights
+      </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right" id="navbar">
+                    <ul id="navclass" class="nav navbar-nav">
+                        <li class=""><a id="HOME"href="home.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a id="ABOUT" href="about.html">About</a></li>
+                        <li><a id="LOC" href="location.html">Location</a></li>
+                        <li><a id="MENU" href="menu.html">Menu</a></li>
+                        <li><a id="SOCIAL" href="social.html">Follow us</a></li>                   
+                        <li><a id="SIGN" href="sign.html">Sign Up</a></li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <div id="contact"class="row">
+            <div class="col-md-6">
+                <h1>About Us:</h1>
+             <h2>  Donut Delights
+	2112 Main Street <br>Urbana , Illinois 61801
+
+	<br>Phone: (217)-555- 1234
+<br>email: contact@donutdelights.com </h2>
+
+            </div>
+          
+    <div class="col-md-6">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <div style='overflow:hidden;height:440px;width:550px;'>
+            <div id='gmap_canvas' style='height:440px;width:550px;'>
+            </div>
+            <div>
+                <small>
+                                    <a href="http://embedgooglemaps.com">									embed google maps							
+                                    </a>
+                                    </small>
+            </div>
+            <div>
+                <small>
+                                            <a href="http://www.proxysitereviews.com/squid-proxies">squid proxies</a>
+                                            </small>
+            </div>
+            <style>
+                #gmap_canvas img {
+                    max-width: none!important;
+                    background: none!important
+                }
+            </style>
+        </div>
+        <script type='text/javascript'>
+            function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(40.1164204,-88.24338290000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.1164204,-88.24338290000003)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Champaign Illinois<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+        </div>
+
+
+
+
+    </div>
+</div>
+    <!-- JS -->
+    <script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+<footer>
+    <div class="row">
+        <div id="Copyright" class="col-md-5">
+            <h4>Copy Right 2016</h4>
+        </div>
+        <div id="con1" class="col-md-5">
+            <h4>contact@donutdelights.com</h4>
+        </div>
+    </div>
+</footer>
+</html>
