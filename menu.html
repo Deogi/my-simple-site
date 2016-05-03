@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/site.css">
     <title>Donut Delights</title>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77249269-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body>
@@ -54,14 +64,9 @@
             <!-- /.container-fluid -->
         </nav>
         <div id="Men1"class="row">
-            <div id="Reg"class="col-md-4">
-                <h2>Bakers Dozen Donuts: (13) $8.65</h2>
-                <p>
-                chocolate frosted<br> vanilla frosted<br> boston cream<br> jelly filled<br>cream filled<br>glazed<br>chocolate glazed<br>
-                marble twist<br> sugar raised<br> plain donut<br> plain cruller<br> honey wheat<br> jelly puff<br> cream puff<br> coffee roll
-                </p>            
-            </div>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            <div id="Reg"class="col-md-1"></div>
+            <div id="Reg"class="col-md-3">
+                   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
     Bakers Dozen Donuts
 </button>
 
@@ -78,10 +83,10 @@
                 <br> vanilla frosted
                 <br> boston cream
                 <br> jelly filled
-                <br> cream filled
-                <br> glazed
-                <br> chocolate glazed
-                <br> marble twist
+                <br>cream filled
+                <br>glazed
+                <br>chocolate glazed
+                <br>marble twist
                 <br> sugar raised
                 <br> plain donut
                 <br> plain cruller
@@ -96,19 +101,21 @@
             </div>
         </div>
     </div>
-</div>
-            <div id="Reg"class="col-md-4">
-                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+</div>    
+            </div>
+            
+            <div id="Reg"class="col-md-3 col-md-offset-1">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Regular">
     Regular Donuts
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="Regular" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Regular Donuts </h4>
+                <h4 class="modal-title" id="myModalLabel">Regular Donuts: $1.05</h4>
             </div>
             <div class="modal-body">
                 chocolate frosted
@@ -135,32 +142,94 @@
     </div>
 </div>           
             </div>
-            <div id="Reg"class="col-md-4">
-                <h2>Fancy Donut: $2.00</h2>
-                <p>
-                chocolate frosted<br> vanilla frosted<br> boston cream<br> jelly filled<br>cream filled<br>glazed<br>chocolate glazed<br>
-                marble twist<br> sugar raised<br> plain donut<br> plain cruller<br> honey wheat<br> jelly puff<br> cream puff<br> coffee roll
-                </p>            
+            <div id="Reg"class="col-md-3 col-md-offset-1">
+                
+                
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Fancy">
+    Fancy Donuts
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Fancy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Fancy Donut: $2.00 </h4>
+            </div>
+            <div class="modal-body">
+                bow tie 
+                 <br>éclair 
+                 <br>apple turnover 
+                 <br>fancy coffee
+                 <br>roll
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>            
             </div>
         </div>
             <div id="Men2"class="row">
-                <div id="Reg" class="col-md-4">
-                <h1>Top sellers: </h1>
-                <h2>
-                    Pistachio Pinwheels<br>
+                <div id="Reg" class="col-md-3 col-md-offset-3">
+                
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Top">
+    Top Sellers
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="Top" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Top Sellers </h4>
+            </div>
+            <div class="modal-body">
+                Pistachio Pinwheels<br>
                     Boston Cream delights<br>
                     Chocolate confetti<br>
                     Marshmallow Mayhems<br>
                     French twists<br>
                     Bulls Horns<br>
-                </h2>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>  
                 </div>
-                <div class="col-md-4">
-                </div>
-                <div id="Reg" class="col-md-4">
+                <div id="Reg" class="col-md-1"></div>
+                <div id="Reg" class="col-md-3">
                     
-<h2>French Cruller: $2.00 </h2>
- 
+
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#French">
+    French Cruller
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="French" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">French Cruller: $2.00 </h4>
+            </div>
+            <div class="modal-body">
+                French Cruller
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
                 </div>
                 
             </div>

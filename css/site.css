@@ -111,3 +111,9 @@ body {
 .navbar-default .navbar-brand {
     color: lightcyan;
 }
+#cara {
+    margin-bottom: 30px;
+}
+#Vet {
+    border: solid sandybrown 5px;
+}
